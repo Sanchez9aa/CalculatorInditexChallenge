@@ -15,7 +15,7 @@
     "styled-components": "^5.3.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "test": "jest",
@@ -44,7 +44,7 @@
     "jest": "^26.6.0"
   },
     "engines" : { 
-      "node" : ">=16.13", 
+      "node" : ">=16.13.1", 
       "npm" : ">=8.2.0"
     }
 }
