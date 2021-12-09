@@ -37,6 +37,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "install": "cd client && npm install",
     "start": "cd client && npm install && npm start"
   },
   "repository": {
