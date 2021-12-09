@@ -1,23 +1,19 @@
 import React from 'react'
-import { useState } from 'react'
 import { StyledTheme, StyledThemeLetter, StyledButton, StyledBg, StyledRigthNumbers, StyledRigthNumber } from '../../style/theme.style'
 import { useSelector, useDispatch} from "react-redux";
 
 const Theme = () => {
 
   const theme = useSelector(state =>  state)
-  const [themes, setThemes] = useState(1)
+  const themes = theme.themeReducer.theme
   const dispatch = useDispatch()
   
   const handleChange = () => {
     if (themes === 1) {
-      setThemes(2)
       dispatch({type:"1"})
     }else if (themes === 2){
-      setThemes(3)
       dispatch({type:"2"})
     }else{
-      setThemes(1)
       dispatch({type:"3"})
     }
   }
