@@ -2,6 +2,7 @@ import React from 'react'
 import {StyledButtonsWrapper, StyledButton, StyledButtonDark, StyledEqualButton} from '../../style/buttons.style'
 import Screen from '../screen/Screen'
 import { useSelector, useDispatch } from 'react-redux'
+import {ArrowLeft} from "react-feather" 
 
 const Buttons = ({theme}) => {  
 
@@ -38,30 +39,19 @@ const Buttons = ({theme}) => {
     }
   }
 
-/*   const deleteClickHandler = () => {
-    if( !value )
-    {
-      setValue({
-        ...value,
-        res: Number(value.res.toString().slice(0, -1))
-      })
-    }else{
-      setValue({
-        ...value,
-        num: Number(value.num.toString().slice(0, -1))
-      })
-    }
-  } */
+  const arrayClickHandler = () => {
+    dispatch({type:"ARRAY_CLICK"})
+  }
 
 
   return (
     <>
-      <Screen value={value ? value : calc.calcReducer.res} theme={theme}/>
+      <Screen value={value ? value : calc.calcReducer.res} array={calc.calcReducer.on === 1 && calc.calcReducer.value.length > 0 ? calc.calcReducer.value : null} theme={theme}/>
       <StyledButtonsWrapper theme={theme}>
         {
           setButtons.map(x => {
             if(x === "DEL"){
-              return <StyledButtonDark key={x}  theme={theme} /* onClick={() => deleteClickHandler()} */>{x}</StyledButtonDark> 
+              return <StyledButtonDark key={x}  theme={theme} onClick={() => arrayClickHandler()}><ArrowLeft size={40}/></StyledButtonDark> 
             }
             if(x === "RESET"){
               return <StyledButtonDark key={x} theme={theme} onClick={() => resetClickHandler()}>{x}</StyledButtonDark>
