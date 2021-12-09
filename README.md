@@ -12,6 +12,8 @@ There are 3 different themes inside our calculator, you can change them by click
 
 This project has been made with React with redux for the operations and themes as well as jest for testing.
 
+Deployed to heroku - https://calculatorinditexchallenge.herokuapp.com/
+
 <h2>TEST</h2>
 
 There are two scripts implemented for testing. <pre>npm run test</pre> and <pre>npm run test:watch</pre>
