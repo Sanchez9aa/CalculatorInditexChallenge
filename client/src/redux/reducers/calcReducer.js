@@ -54,7 +54,7 @@ export const calcReducer = (state = initialState, { type, payload }) => {
       return {
         ...state,
         res:
-          state.num === "0" && state.sign === "/"
+          state.num === 0 && state.sign === "/"
             ? "Can not divide with 0"
             : operations(Number(state.res), Number(state.num), state.sign),
         sign: "",
