@@ -27,3 +27,7 @@ export const DeleteClick = (num) => ({
   type: ActionTypes.DELETE_CLICK,
   payload: num
 });
+
+export const ArrayClick = () => ({
+  type: ActionTypes.ARRAY_CLICK
+});
