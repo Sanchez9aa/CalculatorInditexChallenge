@@ -1,0 +1,53 @@
+{
+  "name": "calculatorinditexchallenge",
+  "version": "1.0.0",
+  "description": "<h1>Calculator Inditex Challenge</h1>",
+  "main": "index.js",
+  "dependencies": {
+    "ansi-styles": "^3.2.1",
+    "camelize": "^1.0.0",
+    "babel-plugin-styled-components": "^2.0.2",
+    "color-convert": "^1.9.3",
+    "chalk": "^2.4.2",
+    "css-color-keywords": "^1.0.0",
+    "color-name": "^1.1.3",
+    "debug": "^4.3.3",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "css-to-react-native": "^3.0.0",
+    "escape-string-regexp": "^1.0.5",
+    "globals": "^11.12.0",
+    "has-flag": "^3.0.0",
+    "js-tokens": "^4.0.0",
+    "hoist-non-react-statics": "^3.3.2",
+    "jsesc": "^2.5.2",
+    "lodash": "^4.17.21",
+    "loose-envify": "^1.4.0",
+    "object-assign": "^4.1.1",
+    "postcss-value-parser": "^4.2.0",
+    "ms": "^2.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-is": "^17.0.2",
+    "scheduler": "^0.20.2",
+    "source-map": "^0.5.7",
+    "shallowequal": "^1.1.0",
+    "to-fast-properties": "^2.0.0",
+    "supports-color": "^5.5.0",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanchez9aa/CalculatorInditexChallenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanchez9aa/CalculatorInditexChallenge/issues"
+  },
+  "homepage": "https://github.com/Sanchez9aa/CalculatorInditexChallenge#readme"
+}
