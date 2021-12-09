@@ -18,4 +18,4 @@ There are two scripts implemented for testing. <pre>npm run test</pre> and <pre>
 
 <h2>MISC</h2>
 
-Remember that if you do a fork you need to do <pre>npm install</pre> and to run <pre>npm start</pre> inside the client folder <pre>cd client && npm start</pre>
+Remember that if you do a fork you need to do <pre>npm install</pre> and to run <pre>npm start</pre>
