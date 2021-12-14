@@ -34,7 +34,7 @@ export const StyledButton = styled.span`
   align-items: center;
   justify-content: center;
   &:active{
-    transform: translateY(4px);
+    transform: translateY(20px);
   }
   &:hover{
     background: rgba(0,0,0,0.1);
@@ -66,7 +66,7 @@ export const StyledButtonDark = styled.span`
     background: rgba(0,0,0,0.1);
   }
   &:active{
-    transform: translateY(4px);
+    transform: translateY(20px);
   }
   @media screen and (max-width: 480px){
     padding: 15px;
@@ -97,7 +97,7 @@ export const StyledEqualButton = styled.span`
     background: rgba(0,0,0,0.1);
   }
   &:active{
-    transform: translateY(4px);
+    transform: translateY(20px);
   }
   @media screen and (max-width: 480px){
     padding: 15px;
