@@ -12,7 +12,7 @@ export const StyledBg = styled.div`
   border-radius: 20px;
   background: ${props => props.theme === 1 ? "hsl(223, 31%, 20%)" : props.theme === 2 ? "hsl(0, 5%, 81%)" : "hsl(268, 71%, 12%)"};
   z-index: 2;
-  position: fixed;
+  position: absolute;
   transition: .5s linear;
 `
 

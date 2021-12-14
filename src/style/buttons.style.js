@@ -12,7 +12,7 @@ export const StyledButtonsWrapper = styled.div`
   border-radius: 10px;
   transition: .5s linear;
   @media screen and (max-width: 480px){
-    width: 75%;
+    width: 70%;
     grid-gap: 15px
   }
 `
@@ -33,10 +33,17 @@ export const StyledButton = styled.span`
   display: flex;
   align-items: center;
   justify-content: center;
+  &:active{
+    transform: translateY(4px);
+  }
+  &:hover{
+    background: rgba(0,0,0,0.1);
+  }
   @media screen and (max-width: 480px){
-    padding: 20px;
+    padding: 15px;
     height: 40%;
     width: 40%;
+    font-size: 35px;
   }
 `
 export const StyledButtonDark = styled.span`
@@ -55,12 +62,20 @@ export const StyledButtonDark = styled.span`
     grid-column: 1 / 3;
   }
   transition: .5s linear;
+  &:hover{
+    background: rgba(0,0,0,0.1);
+  }
+  &:active{
+    transform: translateY(4px);
+  }
   @media screen and (max-width: 480px){
-    padding: 20px;
+    padding: 15px;
     height: 40%;
     width: 40%;
+    font-size: 35px;
     &:nth-last-child(2){
     width: 72%;
+    font-size: 20px;
   }
   }
 `
@@ -78,10 +93,17 @@ export const StyledEqualButton = styled.span`
     grid-column: -1 / 3;
   }
   transition: .5s linear;
+  &:hover{
+    background: rgba(0,0,0,0.1);
+  }
+  &:active{
+    transform: translateY(4px);
+  }
   @media screen and (max-width: 480px){
-    padding: 20px;
+    padding: 15px;
     height: 40%;
     width: 40%;
+    font-size: 35px;
     &:nth-last-child(1){
       width: 72%;
     }

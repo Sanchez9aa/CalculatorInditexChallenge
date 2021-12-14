@@ -5,12 +5,12 @@ export const StyledHeader = styled.header`
   justify-content: space-between;
   height: 75px;
   align-items: center;
-  max-width: 480px;
+  max-width: 560px;
   width: 100%;
   padding-top: 15px;
 
   @media screen and (max-width: 480px){
-    width: 85%;
+    width: 90%;
   }
 `
 

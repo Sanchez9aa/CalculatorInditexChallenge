@@ -11,7 +11,7 @@ export const StyledScreen = styled.div`
   margin-bottom: 15px;
   transition: .5s linear;
   @media screen and (max-width: 480px){
-    width: 75%;
+    width: 70%;
   }
 `
 
